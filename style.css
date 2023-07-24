@@ -15,7 +15,7 @@
 
 /* 	 gif section	*/
 .gif{
-	width: 25vw;
+	width: 20vw;
 	height: 30vh;
 }
 
@@ -34,6 +34,14 @@
 }
 
 /*	responsive with css	 */
+@media (width <= 992px){
+	.gif{
+		width: 25%
+	}
+	.giff{
+		display: none;
+	}
+}
 @media screen and (max-width: 576px) {
 	#slide-text h1{
 		font-size: 14vw;
@@ -45,7 +53,11 @@
 		font-size: 11vw;
 	}
 	.gif{
+		width: 33.3vw;
 		height: 14vh;
+	}
+	.giffer{
+		display: none;
 	}
 	#footer p{
 		margin-bottom: 5px;
