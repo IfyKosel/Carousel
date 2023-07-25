@@ -14,6 +14,9 @@
 }
 
 /* 	 gif section	*/
+.fun{
+	width: 40%;
+}
 .gif{
 	width: 20vw;
 	height: 30vh;
@@ -35,6 +38,9 @@
 
 /*	responsive with css	 */
 @media (width <= 992px){
+	.fun{
+		width: 70%;
+	}
 	.gif{
 		width: 25%
 	}
@@ -64,6 +70,9 @@
 	}
 }
 @media screen and (max-width: 425px){
+	.fun{
+		width: 100%;
+	}
 	.res-btn{
 		font-size: 16px;
 		padding: 6px 12px;
